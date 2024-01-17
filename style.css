@@ -1,0 +1,279 @@
+/*fonts*/
+/*
+font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/*common starts*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+
+}
+/*common ends*/
+
+/*header starts*/
+header {
+	padding: 40px 0;
+	/*border: 1px solid black;*/
+}
+.wrapper {
+	overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    /*border: 1px solid red;*/
+}
+.logo {
+	width: 13%;
+	/*border: 1px solid red;*/
+	float: left;
+	
+}
+.logo a {}
+.logo a img {}
+.menu {
+	width: 70%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul {
+	float: right;
+	margin: 0;
+}
+.menu ul li {
+	
+	float: left;
+	list-style: none;
+	
+}
+.menu ul li a {
+	margin: 0px 15px;
+	padding: 3px 2px;
+	display: inline-block;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu ul li: last-child a {
+	padding-right: 0;
+}
+.menu ul li a:hover {
+	border-bottom: 1px solid #626262;
+}
+/*header ends*/
+
+
+/*banner starts*/
+.banner {}
+.b_img {}
+.b_img img {
+	width: 100%;
+}
+
+/*banner ends*/
+
+
+/*perfect starts*/
+.perfect {
+	padding: 70px;
+}
+.wrapper2 {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid green;*/
+}
+.p_content {}
+.c_light {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.c-h1 {
+	margin: 20px 0px 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text {
+	line-height: 25px;
+}
+.mb_45 {
+	margin-bottom: 45px;
+}
+/*perfect ends*/
+
+
+
+/*blog1 starts*/
+.blog1 {
+	padding: 70px 0 10px;
+}
+.blog_content {
+	overflow: hidden;
+}
+.s_blog {
+	margin-bottom: 60px;
+	width: 47%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+.s_blog:nth-child(even) {
+	margin-left: 6%;
+}
+.blog_img {
+	margin-bottom: 25px;
+}
+.blog_img img {
+	width: 100%;
+}
+/*blog1 ends*/
+
+
+/*news starts*/
+.news {
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+.signup {
+	text-align: center;
+}
+.s_h1 {
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form {
+	position: relative;
+	width: 400px;
+	margin: 0 auto;
+	
+}
+.s_form input {
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: black;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+
+}
+.s_form input:focus {
+	outline: none;
+}
+.s_form button {
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus {
+	outline: none;
+}
+.s_form button img {}
+/*news ends*/
+
+
+/* load starts */
+
+.blog2 {
+
+}
+.load {
+	margin: 50px 0 110px;
+	text-align: center;
+}
+
+.load_btn {
+	width: 165px;
+	height: 60px;
+	border: 1px solid #626262;
+	background-color: white;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: #626262;
+	color: #626262;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.load_btn:hover {
+	background-color: #626262;
+	color: white;
+}
+
+/* load ends */
+
+/* footer starts */
+.footer {
+	
+}
+#w2 {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+}
+.terms {
+	float: left;
+	padding-left: 60px;
+}
+.terms ul {
+	overflow: hidden;
+}
+.terms ul li {
+	float: left;
+    list-style: none;
+}
+.terms ul li a {
+	padding: 0 13px;
+    text-decoration: none;
+    color: black;
+	cursor: pointer;
+	transition: .3s;
+}
+.social {
+	float: right;
+	padding-right: 60px;
+}
+.social_span {
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 400;
+	padding-right: 10px;
+}
+.social ul {
+	overflow: hidden;
+}
+.social ul li {
+	float: left;
+    list-style: none;
+}
+.social ul li a {
+	text-decoration: none;
+    padding: 0px 20px;
+    color: black;
+	cursor: pointer;
+	transition: .3s;
+}
+.social ul li a:hover {
+	color: #626262;
+}
+
+
+/* footer starts */
